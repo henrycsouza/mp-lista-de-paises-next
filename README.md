@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [🌍 Lista de Países usando Next.js](https://codante.io/mini-projetos/lista-de-paises-nextjs)
 
-## Getting Started
+Explore o poder da versão 13 do Next.js criando uma lista de países utilizando a API [REST Countries](https://restcountries.com/).
 
-First, run the development server:
+## 🔨 Requisitos
+- Utilize a [API REST Countries](https://restcountries.com/) para obter os dados dos países.
+- Utilize o Next.js na versão mais atual para construir a estrutura do projeto e gerenciar as rotas da aplicação.
+- Garanta que sua aplicação se comporta bem em celulares, tablets e desktops.
+- Implemente a funcionalidade de exibir uma lista de países, mostrando sua bandeira e seu nome em português.
+- Ao clicar em um país, você deverá exibir em uma nova rota a página de detalhes do país
+  - Exiba a capital, população, continente e região e as línguas faladas no país.
+  - Exiba o número da população em números simplificados, _por exemplo: 1.000.000 deve ser 1M e 1000 deve ser 1K._
+  - Exiba uma lista dos países que fazem fronteira com o país exibido. Ao clicar em um dos países que fazem fronteira, redirecione para a página desse país.
+- Faça o deploy da sua aplicação e submeta no Codante.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔨 Desafios extras para quem quer ir além
+- Implemente uma sessão de "países que falam a mesma língua", abaixo dos "países que fazem fronteira".
+- Implemente uma busca na lista de países.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔍 Dicas
+- Estude sobre React 18 e Server Components.
+- Utilize um framework CSS, como Tailwind, para ganhar agilidade na implementação.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎨 Design Sugerido
+Temos uma sugestão de design no Figma. Mas sinta-se livre para utilizar a criatividade e fazer o seu próprio design.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 [Link do Figma](https://www.figma.com/file/suvmja6210ggZOO6Cpehjl/Mini-Projetos---Codante.io?type=design&node-id=1316-4&t=b5wBErhDdCzTdDl6-0)
 
-## Learn More
+![image](https://github.com/codante-io/mp-lista-de-paises-next/assets/6475893/5f35397c-f71e-4319-90b1-2ba970600a88)
 
-To learn more about Next.js, take a look at the following resources:
+## 👉🏽 Sobre esse mini-projeto
+### Tecnologias sugeridas
+**NextJS 13**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `Server Components`
+- `Data fetching`
+- `Nested layouts`
+- `Routes`
+- `pages.tsx`
+- `layout.tsx`
+- `error.tsx`
+- `loading.tsx`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Pré-requisitos
+- `React`
+- `HTML, CSS, JavaScript`
 
-## Deploy on Vercel
+## ❓ FAQ
+### Posso utilizar outros frameworks ou outras versões do Next?
+Esse projeto foi pensado para praticar a versão 13 do NextJS, utilizando React 18 com Server Components. Por isso, a resolução oficial será feita dessa forma.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Sinta-se livre para fazer de outras maneiras, caso você esteja estudando outros conteúdos. Mas considere que a solução oficial poderá não cobrir isso. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Posso usar features experimentais do Next?
+Sim. Algumas features ainda estão em alpha e portanto não são recomendadas para uso em produção. Como esse se trata de um projeto para aprendizado, você pode aproveitar para experimentar essas features.
+
+## Inspiração
+[REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
